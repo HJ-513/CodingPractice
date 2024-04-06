@@ -1,6 +1,5 @@
-#include <stdio.h>
-
-int main(void){
+#include<stdio.h>
+main(){
     int H,M;
     scanf("%d %d", &H, &M);
     M = (H*60)+M;
